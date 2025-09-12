@@ -23,7 +23,6 @@ body {
     background-color: #e1e8ed; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .container {
     background-color: #ffffff;
     padding: 4.5rem 5rem;
@@ -31,6 +30,7 @@ body {
     min-height: 50vh;
     box-shadow: 0 8px 16px rgba(90, 134, 173, 0.15);
     width: 360px;
+    margin-bottom: 7rem;
 }
 
 form {
@@ -169,3 +169,44 @@ form button:hover {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #5a86ad;
+    color: white;
+    font-weight: 600;
+    border-radius: 0 0 1.4rem 1.4rem;
+    box-shadow: 0 -4px 8px rgba(90, 134, 173, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+    
+}
+
+footer p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1.2rem 0;
+    background-color: #5a86ad;
+    color: white;
+    font-weight: 600;
+    border-radius: 0 0 1.4rem 1.4rem;
+    box-shadow: 0 -4px 8px rgba(90, 134, 173, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1000;
+}
+
+footer p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
